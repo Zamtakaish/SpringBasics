@@ -1,5 +1,9 @@
 package com.Zamtakaish.SpringFrameworkBasics.game;
 
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class HeroesGame implements GamingConsole {
 
     @Override
