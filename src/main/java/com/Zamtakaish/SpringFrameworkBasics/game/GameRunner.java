@@ -2,13 +2,9 @@ package com.Zamtakaish.SpringFrameworkBasics.game;
 
 public class GameRunner {
 
-    //private HeroesGame game;
-    private ArcadeGame game;
+    private GamingConsole game;
 
-    /*public GameRunner(HeroesGame game) {
-        this.game = game;
-    }*/
-    public GameRunner(ArcadeGame game) {
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
 

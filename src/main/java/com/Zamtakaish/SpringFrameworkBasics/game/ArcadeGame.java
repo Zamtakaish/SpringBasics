@@ -1,6 +1,6 @@
 package com.Zamtakaish.SpringFrameworkBasics.game;
 
-public class ArcadeGame {
+public class ArcadeGame implements GamingConsole{
 
     public void up() {
         System.out.println("Jump");
