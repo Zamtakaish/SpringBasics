@@ -1,5 +1,10 @@
 package com.Zamtakaish.SpringFrameworkBasics.game;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
 public class ArcadeGame implements GamingConsole{
 
     public void up() {
